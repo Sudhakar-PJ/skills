@@ -1,0 +1,13 @@
+# System and temporary files
+.DS_Store
+Thumbs.db
+*.log
+
+# Caches and dependencies
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Explicitly ensure .agents directory is tracked
+!.agents/
+!.agents/**
